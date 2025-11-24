@@ -4,6 +4,13 @@ app_publisher = "Mohamed Sayed"
 app_description = "custome app"
 app_email = "Mohameddbs53@gmail.com"
 app_license = "mit"
+app_include_css = [
+    "/assets/m_s_app/css/custom.css",
+    "/assets/m_s_app/css/style.css"
+]
+app_include_js = "/assets/m_s_app/js/custom.js"
+web_include_css = ["/assets/m_s_app/css/custom.css",
+                   "/assets/m_s_app/css/style.css"]
 
 # Apps
 # ------------------

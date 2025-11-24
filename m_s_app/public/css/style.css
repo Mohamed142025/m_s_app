@@ -1,0 +1,326 @@
+/* __________________________botton main hover________________________________________ */
+.btn.btn-primary {
+    background: linear-gradient(135deg, #C43737, #E05A5A);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.btn.btn-primary:hover {
+    background: linear-gradient(#0e4194, #2490ef);
+}
+
+.navbar-light {
+    background: linear-gradient(#0e4194, #2490ef);
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffffe6;
+}
+
+/* .btn.btn-primary span {
+    z-index: 1;
+}
+
+.btn.btn-primary svg {
+    z-index: 1;
+}
+
+.btn.btn-primary::before {
+    content: "";
+    height: 100%;
+    background: #2490ef !important;
+    position: absolute;
+    width: 0px;
+    left: 0;
+    border-radius: 5px 0px 0px 5px;
+    transition: width 0.4s ease;
+    /* السموث */
+
+/* } */
+
+/* .btn.btn-primary:hover.btn.btn-primary::before {
+    width: 50% !important;
+    background: #2490ef !important;
+}
+
+.btn.btn-primary::after {
+    content: "";
+    height: 100%;
+    background: #2490ef !important;
+    position: absolute;
+    width: 0px;
+    right: 0;
+    border-radius: 0px 5px 5px 0px;
+    transition: width 0.4s ease;
+    /* السموث */
+
+/* } */
+/* 
+.btn.btn-primary:hover.btn.btn-primary::after {
+    width: 50% !important;
+    background: #2490ef !important;
+} */
+
+/* record hover */
+
+.list-row {
+    position: relative;
+    overflow: hidden;
+}
+
+.level list-row * {
+    z-index: 1;
+}
+
+.list-row::before {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.4s ease;
+}
+
+.list-row::after {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    transition: width 0.4s ease;
+}
+
+/* الهوفر الصحيح */
+.list-row:hover:not(.list-row-head)::before {
+    width: 50% !important;
+}
+
+.list-row:hover:not(.list-row-head)::after {
+    width: 50% !important;
+}
+
+/* الخلفية */
+.list-row:hover:not(.list-row-head) {
+    background-color: #ff000000;
+}
+
+/* __________________________________widget card__________________________________ */
+
+.widget.links-widget-box .link-item {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.widget.links-widget-box .link-item::before {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.4s ease;
+}
+
+.widget.links-widget-box .link-item::after {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    transition: width 0.4s ease;
+}
+
+/* الهوفر الصحيح */
+.widget.links-widget-box .link-item:hover::before {
+    width: 50% !important;
+}
+
+.widget.links-widget-box .link-item:hover::after {
+    width: 50% !important;
+}
+
+/* ____________________sidbar _____________________*/
+.layout-side-section {
+    box-shadow: -4px 0px 4px 1px #e8eafcad, 4px 0px 4px 1px #461a7714;
+    border-radius: 10px;
+}
+
+.sidebar-item-control {
+    z-index: 99;
+}
+
+
+.desk-sidebar .standard-sidebar-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.desk-sidebar .standard-sidebar-item a {
+    z-index: 99;
+}
+
+
+.desk-sidebar .standard-sidebar-item::before {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.4s ease;
+}
+
+.desk-sidebar .standard-sidebar-item::after {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    transition: width 0.4s ease;
+}
+
+/* الهوفر الصحيح */
+.desk-sidebar .standard-sidebar-item:hover::before {
+    width: 50% !important;
+}
+
+.desk-sidebar .standard-sidebar-item:hover::after {
+    width: 50% !important;
+}
+
+.desk-sidebar .standard-sidebar-item:hover {
+    background-color: #ff000000;
+}
+
+[data-theme="light"] .selected svg {
+    filter: brightness(0) invert(1);
+}
+
+/* ____________Shortcut________________-*/
+
+
+
+.widget.shortcut-widget-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.widget.shortcut-widget-box a {
+    z-index: 99;
+}
+
+
+.widget.shortcut-widget-box::before {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    left: 0;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.4s ease;
+}
+
+.widget.shortcut-widget-box::after {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+    transition: width 0.4s ease;
+}
+
+/* الهوفر الصحيح */
+.widget.shortcut-widget-box:hover::before {
+    width: 50% !important;
+}
+
+.widget.shortcut-widget-box:hover::after {
+    width: 50% !important;
+}
+
+#navbar-breadcrumbs a:before {
+    filter: brightness(0) invert(1);
+}
+
+/*_______________ .btn.btn-default________________ */
+
+
+.btn.btn-default {
+    position: relative;
+    overflow: hidden;
+}
+
+/* لضمان أن المحتوى فوق الـ before/after */
+.btn.btn-default * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ::before */
+.btn.btn-default::before {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    left: 0;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.4s ease;
+}
+
+/* ::after */
+.btn.btn-default::after {
+    content: "";
+    height: 100%;
+    background: #64b7ff29 !important;
+    position: absolute;
+    width: 0px;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+    transition: width 0.4s ease;
+}
+
+/* الهوفر */
+.btn.btn-default:hover::before {
+    width: 50% !important;
+}
+
+.btn.btn-default:hover::after {
+    width: 50% !important;
+}
+
+/* search bar hover */
+.awesomplete>[role=listbox]>li:hover {
+    background-color: #64b7ff40 !important;
+    color: var(--text-color);
+}
+
+/* notfiaction hover */
+.recent-item:not(.no-hover):hover {
+    background-color: #64b7ff29;
+}
+
+/* _______________________________ */
+dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #64b7ff29;
+}
