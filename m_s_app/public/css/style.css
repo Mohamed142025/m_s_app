@@ -1,21 +1,29 @@
+:root {
+    --main-gradient: linear-gradient(to right, #00bf8f, #003b2d);
+    --main-gradient-btn: linear-gradient(135deg, #C43737, #E05A5A);
+    --font-color: #ffffff;
+    --hover: #00bf8f21;
+}
+
+
 /* __________________________botton main hover________________________________________ */
 .btn.btn-primary {
-    background: linear-gradient(135deg, #C43737, #E05A5A);
+    background: var(--main-gradient-btn);
 
     position: relative;
     overflow: hidden;
 }
 
 .btn.btn-primary:hover {
-    background: linear-gradient(#0e4194, #2490ef);
+    background: var(--main-gradient);
 }
 
 .navbar-light {
-    background: linear-gradient(#0e4194, #2490ef);
+    background: var(--main-gradient);
 }
 
 .navbar-light .navbar-brand {
-    color: #ffffffe6;
+    color: var(--font-color);
 }
 
 /* .btn.btn-primary span {
@@ -83,7 +91,7 @@
 .list-row::before {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     left: 0;
@@ -94,7 +102,7 @@
 .list-row::after {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     right: 0;
@@ -127,7 +135,7 @@
 .widget.links-widget-box .link-item::before {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     left: 0;
@@ -138,7 +146,7 @@
 .widget.links-widget-box .link-item::after {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     right: 0;
@@ -179,7 +187,7 @@
 .desk-sidebar .standard-sidebar-item::before {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     left: 0;
@@ -190,7 +198,7 @@
 .desk-sidebar .standard-sidebar-item::after {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     right: 0;
@@ -232,7 +240,7 @@
 .widget.shortcut-widget-box::before {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     left: 0;
@@ -244,7 +252,7 @@
 .widget.shortcut-widget-box::after {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     right: 0;
@@ -284,7 +292,7 @@
 .btn.btn-default::before {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     left: 0;
@@ -297,7 +305,7 @@
 .btn.btn-default::after {
     content: "";
     height: 100%;
-    background: #64b7ff29 !important;
+    background: var(--hover) !important;
     position: absolute;
     width: 0px;
     right: 0;
@@ -317,12 +325,12 @@
 
 /* search bar hover */
 .awesomplete>[role=listbox]>li:hover {
-    background-color: #64b7ff40 !important;
+    background-color: var(--hover) !important;
     color: var(--text-color);
 }
 
 .awesomplete>[role=listbox]>li[aria-selected=true] {
-    background: linear-gradient(#0e4194, #2490ef) !important;
+    background: var(--main-gradient) !important;
     color: #ffffff;
 }
 
@@ -332,19 +340,19 @@
 
 /* notfiaction hover */
 .recent-item:not(.no-hover):hover {
-    background-color: #64b7ff29;
+    background-color: var(--hover);
 }
 
 /* _______________________________ */
 .dropdown-item:hover,
 .dropdown-item:focus {
-    background-color: #64b7ff29;
+    background-color: var(--hover);
 }
 
 /* tab doctype  */
 .form-tabs-list .form-tabs .nav-item .nav-link.active {
-    border-bottom: 1px solid #2490ef;
-    color: #0e4194;
+    border-bottom: 1px solid #008163;
+    color: #008163;
 }
 
 .nav-link {
@@ -353,4 +361,10 @@
 
 .form-tabs-list .form-tabs .nav-item .nav-link:hover {
     border-bottom: solid 1px #C43737;
+}
+
+/* __________________________________ */
+
+.btn.btn-secondary:hover {
+    background: var(--hover);
 }
