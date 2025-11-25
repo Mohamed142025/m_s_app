@@ -368,3 +368,9 @@
 .btn.btn-secondary:hover {
     background: var(--hover);
 }
+
+/* __________________________ */
+
+.navbar .navbar-home img {
+    filter: none;
+}
