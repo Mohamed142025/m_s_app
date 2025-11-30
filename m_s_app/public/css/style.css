@@ -374,3 +374,19 @@
 .navbar .navbar-home img {
     filter: none;
 }
+
+/*________________z-______________ */
+.page-form .awesomplete>ul {
+    z-index: 100;
+}
+
+/* ___________________________________________ */
+.page-form .awesomplete>ul {
+    min-width: 300px;
+    z-index: 100;
+}
+
+/* _________________________________________ */
+.list-row-head .level-right {
+    flex: none;
+}
