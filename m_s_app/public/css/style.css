@@ -390,3 +390,8 @@
 .list-row-head .level-right {
     flex: none;
 }
+
+/* _________________________ */
+.page-head {
+    z-index: 100;
+}
