@@ -395,3 +395,8 @@
 .page-head {
     z-index: 100;
 }
+
+/* _________________________________ */
+.dropdown-item:active {
+    color: #003b2d;
+}
